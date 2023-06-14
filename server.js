@@ -80,12 +80,12 @@ let user = new mongoose.model("user", userSchema);
 let storeDataIntoMDB = async () => {
   try {
     let karthick = new user({
-      firstName: "Manjunadh",
-      lastName: "KN",
-      email: "manju@gmail.com",
+      firstName: "Prasanna",
+      lastName: "AB",
+      email: "prasanna@gmail.com",
       gender: "Male",
-      maritalStatus: "single",
-      age: 32,
+      maritalStatus: "married",
+      age: 28,
       batchId: 2301,
     });
     await user.insertMany([karthick]);
