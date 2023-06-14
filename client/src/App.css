@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+body{
+  align-items: center;
+}
+
+table {
+  text-align: justify;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 50px;
+  padding: 10px;
+}
+
+thead th {
+  background-color: skyblue;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+}
+
+tbody td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+tbody tr:last-child td {
+  border-bottom: 2px
+}
